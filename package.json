@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "prepublish": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-stage-0": "^6.22.0"
+  },
+  "name": "react-purify",
+  "version": "1.0.0",
+  "description": "Pure Stateless Components",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Iddan Aharonson"
+}
