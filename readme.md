@@ -2,12 +2,12 @@
 ## Pure Stateless Components
 
 ```JavaScript
-import purify from 'react-purify';
+import purify from 'react-stateless-purify';
 
-@purify
-function MyComponent() {
 
-}
+const MyComponent = purify(function MyComponent() {
+
+});
 ```
 
 ### Motivation
