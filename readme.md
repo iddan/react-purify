@@ -1,4 +1,4 @@
-# react-purify
+# react-stateless-purify
 ## Pure Stateless Components
 
 ```JavaScript
