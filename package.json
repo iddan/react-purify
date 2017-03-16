@@ -9,13 +9,14 @@
     "babel-preset-env": "^1.2.1",
     "babel-preset-stage-0": "^6.22.0"
   },
-  "name": "react-purify",
+  "name": "stateless-purify",
   "version": "1.0.0",
-  "description": "Pure Stateless Components",
+  "description": "Pure Stateless React components",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "Iddan Aharonson",
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "react": "^15.4.2"
   }
 }

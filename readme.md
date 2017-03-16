@@ -1,13 +1,19 @@
-# react-purify
+# stateless-purify
 ## Pure Stateless Components
 
+```bash
+npm install --save react-purify
+# yarn will do as well
+```
+
+### Usage
+
 ```JavaScript
-import purify from 'react-purify';
+import purify from 'stateless-purify';
 
-@purify
-function MyComponent() {
+const MyComponent = purify(function MyComponent() {
 
-}
+});
 ```
 
 ### Motivation
