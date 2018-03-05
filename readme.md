@@ -1,3 +1,14 @@
+# DEPRECATED
+
+Use [recompose](github.com/acdlite/recompose) instead.
+
+```javascript
+import { pure } from 'recompose'
+
+const MyComponent = pure(function MyComponent() {
+});
+```
+
 # stateless-purify
 
 Pure Stateless Components
